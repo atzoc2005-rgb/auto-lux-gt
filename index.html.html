@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestige Auto Gallery | Vehículos de Lujo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Marquesina -->
+    <marquee class="marquesina" behavior="scroll" direction="left">
+        Carnet: 0900-26-4918 | Nombre: ANDERSON GABRIEL TZOC CHIAL
+    </marquee>
+
+    <header>
+        <div class="header-content">
+            <h1>PRESTIGE</h1>
+            <p>Auto Gallery</p>
+        </div>
+    </header>
+
+    <!-- 2. Menú horizontal dinámico -->
+    <nav>
+        <ul class="menu">
+            <li><a href="#quienes-somos">Quiénes Somos</a></li>
+            <li><a href="#acerca-de">Acerca De</a>
+                <ul class="submenu">
+                    <li><a href="#mision">Misión</a></li>
+                    <li><a href="#vision">Visión</a></li>
+                </ul>
+            </li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#proveedores">Proveedores</a></li>
+            <li><a href="#clientes">Clientes</a></li>
+            <li><a href="#contactenos">Contáctenos</a></li>
+        </ul>
+    </nav>
+
+    <!-- 3. Contenido Creativo (Rotación de imágenes y música) -->
+    <section id="carrusel-creativo">
+        <div class="slider">
+            <!-- Imágenes en rotación -->
+            <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80" alt="Mercedes-Benz Clase S" class="slide">
+            <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80" alt="BMW Serie 7" class="slide">
+            <img src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=800&q=80" alt="Audi A8" class="slide">
+        </div>
+        
+        <!-- Música instrumental de fondo -->
+        <audio id="musica-fondo" autoplay loop>
+            <source src="musica-elegante.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        <p class="nota-musica"><small>🎵 Música instrumental clásica en reproducción</small></p>
+    </section>
+
+    <!-- Quienes Somos -->
+    <section id="quienes-somos" class="seccion">
+        <h2>Quiénes Somos</h2>
+        <div class="perfil">
+            <div class="marco-foto">
+                <img src="https://via.placeholder.com/150?text=Foto+Anderson" alt="Foto de Anderson" class="foto-alumno">
+            </div>
+            <p><strong>Prestige Auto Gallery</strong> es la concesionaria multimarca más exclusiva del país. Dirigida y desarrollada por <strong>Anderson Gabriel Tzoc Chial</strong>, nuestra sala de ventas reúne la cúspide de la ingeniería automotriz mundial. Seleccionamos cuidadosamente cada vehículo para garantizar que nuestros clientes adquieran no solo un medio de transporte, sino una obra de arte sobre ruedas.</p>
+        </div>
+    </section>
+
+    <!-- Acerca De (Misión y Visión) -->
+    <section id="acerca-de" class="seccion">
+        <h2>Acerca De</h2>
+        <div class="contenedor-columnas">
+            <div id="mision" class="columna">
+                <h3>Misión</h3>
+                <p>Proveer a los entusiastas y ejecutivos exigentes los vehículos más prestigiosos del mundo, ofreciendo una experiencia de compra personalizada, discreta y de absoluto lujo, respaldada por un servicio al cliente excepcional.</p>
+            </div>
+            <div id="vision" class="columna">
+                <h3>Visión</h3>
+                <p>Posicionarnos como el referente definitivo en la importación y venta de automóviles de súper lujo en Centroamérica, estableciendo el estándar de elegancia y exclusividad para el año 2030.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos (Multimarca) -->
+    <section id="productos" class="seccion">
+        <h2>Nuestra Colección</h2>
+        <div class="grid-productos">
+            <div class="producto">
+                <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=300&q=80" alt="Mercedes-Benz S-Class">
+                <h4>Mercedes-Benz Clase S</h4>
+                <p class="precio">$115,000</p>
+            </div>
+            <div class="producto">
+                <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=300&q=80" alt="BMW X7">
+                <h4>BMW X7 xDrive40i</h4>
+                <p class="precio">$85,000</p>
+            </div>
+            <div class="producto">
+                <img src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=300&q=80" alt="Audi RS Q8">
+                <h4>Audi RS Q8</h4>
+                <p class="precio">$125,000</p>
+            </div>
+            <div class="producto">
+                <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=300&q=80" alt="Range Rover">
+                <h4>Range Rover Autobiography</h4>
+                <p class="precio">$145,000</p>
+            </div>
+            <div class="producto">
+                <img src="https://images.unsplash.com/photo-1503376712341-ea1c3272d163?w=300&q=80" alt="Porsche Panamera">
+                <h4>Porsche Panamera GTS</h4>
+                <p class="precio">$135,000</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proveedores -->
+    <section id="proveedores" class="seccion">
+        <h2>Nuestros Proveedores Premium</h2>
+        <div class="grid-proveedores">
+            <div class="proveedor">
+                <img src="https://via.placeholder.com/120x80/111111/D4AF37?text=Pirelli" alt="Pirelli">
+                <p>Pirelli (Neumáticos de Alto Rendimiento)</p>
+            </div>
+            <div class="proveedor">
+                <img src="https://via.placeholder.com/120x80/111111/D4AF37?text=Bang+%26+Olufsen" alt="Bang & Olufsen">
+                <p>Bang & Olufsen (Sistemas Acústicos)</p>
+            </div>
+            <div class="proveedor">
+                <img src="https://via.placeholder.com/120x80/111111/D4AF37?text=Brembo" alt="Brembo">
+                <p>Brembo (Sistemas de Frenos)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clientes -->
+    <section id="clientes" class="seccion">
+        <h2>Clientes Distinguidos</h2>
+        <ul class="lista-clientes">
+            <li>
+                <div class="cliente-info">
+                    <img src="https://via.placeholder.com/40/D4AF37/111111?text=★" alt="Icono VIP" class="icono"> 
+                    <div class="cliente-texto">
+                        <strong>Lic. Roberto Castillo</strong>
+                        <span>"La gestión en la compra de mi Clase S fue impecable."</span>
+                    </div>
+                </div>
+                <img src="https://via.placeholder.com/70?text=Cliente+1" alt="Foto Cliente" class="foto-cte">
+            </li>
+            <li>
+                <div class="cliente-info">
+                    <img src="https://via.placeholder.com/40/D4AF37/111111?text=★" alt="Icono VIP" class="icono"> 
+                    <div class="cliente-texto">
+                        <strong>Dra. Sofía Montenegro</strong>
+                        <span>"Exclusividad total. Encontré el Range Rover que buscaba."</span>
+                    </div>
+                </div>
+                <img src="https://via.placeholder.com/70?text=Cliente+2" alt="Foto Cliente" class="foto-cte">
+            </li>
+            <li>
+                <div class="cliente-info">
+                    <img src="https://via.placeholder.com/40/D4AF37/111111?text=★" alt="Icono VIP" class="icono"> 
+                    <div class="cliente-texto">
+                        <strong>Arq. Fernando del Valle</strong>
+                        <span>"El nivel de atención y el catálogo son inigualables."</span>
+                    </div>
+                </div>
+                <img src="https://via.placeholder.com/70?text=Cliente+3" alt="Foto Cliente" class="foto-cte">
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contáctenos -->
+    <section id="contactenos" class="seccion">
+        <h2>Atención al Cliente</h2>
+        <div class="contacto-info">
+            <p><strong>Showroom:</strong> Boulevard Los Próceres, Zona 10, Ciudad de Guatemala</p>
+            <p><strong>Concierge (Teléfono):</strong> +502 2345-6789</p>
+            <p><strong>E-mail:</strong> exclusividad@prestige-auto.com.gt</p>
+        </div>
+        
+        <!-- Video Comercial 30-45 seg -->
+        <div class="video-container">
+            <h3>Experiencia Prestige (Comercial)</h3>
+            <video width="700" controls>
+                <source src="video-lujo.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+        </div>
+
+        <div class="mapa">
+            <h3>Encuéntrenos</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15438.484218671607!2d-90.528437!3d14.599525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a1c100000000%3A0x0!2sZona%2010%2C%20Ciudad%20de%20Guatemala!5e0!3m2!1ses!2sgt!4v1680000000000!5m2!1ses!2sgt" width="100%" height="350" style="border:0; border-radius: 5px;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- 4. Pie de página -->
+    <footer>
+        <p class="lema"><em>"Conoceréis la verdad y la verdad os hará libres" - Universidad Mariano Gálvez</em></p>
+        <div class="redes-sociales">
+            <a href="#">Instagram VIP</a> | <a href="#">LinkedIn</a> | <a href="#">Facebook Premium</a>
+        </div>
+        <p class="copyright">&copy; 2026 Prestige Auto Gallery. Proyecto Universitario.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
