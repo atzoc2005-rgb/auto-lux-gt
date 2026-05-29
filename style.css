@@ -235,6 +235,7 @@ h3 {
     flex-wrap: wrap;
     gap: 20px;
 }
+
 .proveedor {
     text-align: center;
     padding: 20px;
@@ -242,7 +243,11 @@ h3 {
     width: 250px;
     border-bottom: 2px solid #333;
 }
+
 .proveedor img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
     margin-bottom: 10px;
 }
 
@@ -251,6 +256,7 @@ h3 {
     list-style: none;
     padding: 0;
 }
+
 .lista-clientes li {
     display: flex;
     justify-content: space-between;
@@ -260,27 +266,35 @@ h3 {
     padding: 20px;
     border-left: 4px solid var(--gold);
 }
+
 .cliente-info {
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
 .icono {
     border-radius: 50%;
 }
+
 .cliente-texto strong {
     display: block;
     color: var(--gold);
     font-size: 1.1em;
     margin-bottom: 5px;
 }
+
 .cliente-texto span {
     font-style: italic;
     color: #aaa;
 }
+
 .foto-cte {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
     border-radius: 50%;
-    border: 2px solid #333;
+    border: 2px solid var(--gold);
 }
 
 /* Contacto y Video */
